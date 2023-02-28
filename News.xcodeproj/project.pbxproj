@@ -25,6 +25,8 @@
 		1A97CBC429AE7D1E008A586E /* GetNewsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */; };
 		1A97CBCA29AE8983008A586E /* PaginationLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBC929AE8983008A586E /* PaginationLoad.swift */; };
 		1A97CBD029AE8CF8008A586E /* KNUIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBCF29AE8CF8008A586E /* KNUIImageViewExtension.swift */; };
+		1A97CBD229AE8F82008A586E /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBD129AE8F82008A586E /* AppData.swift */; };
+		1A97CBD429AE9063008A586E /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBD329AE9063008A586E /* NewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewsWorker.swift; sourceTree = "<group>"; };
 		1A97CBC929AE8983008A586E /* PaginationLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationLoad.swift; sourceTree = "<group>"; };
 		1A97CBCF29AE8CF8008A586E /* KNUIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNUIImageViewExtension.swift; sourceTree = "<group>"; };
+		1A97CBD129AE8F82008A586E /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		1A97CBD329AE9063008A586E /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				1A97CB8629AE796E008A586E /* SceneDelegate.swift */,
 				1A97CB9229AE7970008A586E /* Info.plist */,
 				1A97CB9829AE79CB008A586E /* AppConfig.swift */,
+				1A97CBD129AE8F82008A586E /* AppData.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			children = (
 				1A97CB8829AE796E008A586E /* NewsController.swift */,
 				1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */,
+				1A97CBD329AE9063008A586E /* NewsCell.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				1A97CBB529AE79E6008A586E /* KNControlConstruction.swift in Sources */,
 				1A97CBAB29AE79E6008A586E /* KNUIApplicationExtension.swift in Sources */,
 				1A97CBB029AE79E6008A586E /* KNApiConnector.swift in Sources */,
+				1A97CBD429AE9063008A586E /* NewsCell.swift in Sources */,
 				1A97CB9929AE79CB008A586E /* AppConfig.swift in Sources */,
 				1A97CB8529AE796E008A586E /* AppDelegate.swift in Sources */,
 				1A97CB8729AE796E008A586E /* SceneDelegate.swift in Sources */,
@@ -233,6 +240,7 @@
 				1A97CBB629AE79E6008A586E /* KNConstraints.swift in Sources */,
 				1A97CBBA29AE79E6008A586E /* KNTableExtension.swift in Sources */,
 				1A97CBC429AE7D1E008A586E /* GetNewsWorker.swift in Sources */,
+				1A97CBD229AE8F82008A586E /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
