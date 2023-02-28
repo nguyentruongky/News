@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		1A97CB8529AE796E008A586E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB8429AE796E008A586E /* AppDelegate.swift */; };
 		1A97CB8729AE796E008A586E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB8629AE796E008A586E /* SceneDelegate.swift */; };
-		1A97CB8929AE796E008A586E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB8829AE796E008A586E /* ViewController.swift */; };
-		1A97CB8C29AE796E008A586E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A97CB8A29AE796E008A586E /* Main.storyboard */; };
+		1A97CB8929AE796E008A586E /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB8829AE796E008A586E /* NewsController.swift */; };
 		1A97CB8E29AE7970008A586E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A97CB8D29AE7970008A586E /* Assets.xcassets */; };
 		1A97CB9129AE7970008A586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A97CB8F29AE7970008A586E /* LaunchScreen.storyboard */; };
+		1A97CB9929AE79CB008A586E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB9829AE79CB008A586E /* AppConfig.swift */; };
+		1A97CBAB29AE79E6008A586E /* KNUIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB9B29AE79E5008A586E /* KNUIApplicationExtension.swift */; };
+		1A97CBAE29AE79E6008A586E /* KNGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CB9E29AE79E5008A586E /* KNGeneral.swift */; };
+		1A97CBB029AE79E6008A586E /* KNApiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBA029AE79E5008A586E /* KNApiConnector.swift */; };
+		1A97CBB329AE79E6008A586E /* KNView+KNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBA329AE79E5008A586E /* KNView+KNController.swift */; };
+		1A97CBB529AE79E6008A586E /* KNControlConstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBA529AE79E5008A586E /* KNControlConstruction.swift */; };
+		1A97CBB629AE79E6008A586E /* KNConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBA629AE79E5008A586E /* KNConstraints.swift */; };
+		1A97CBBA29AE79E6008A586E /* KNTableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBAA29AE79E5008A586E /* KNTableExtension.swift */; };
+		1A97CBBD29AE79FA008A586E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1A97CBBC29AE79FA008A586E /* Alamofire */; };
+		1A97CBC029AE7A3E008A586E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1A97CBBF29AE7A3E008A586E /* Kingfisher */; };
+		1A97CBC429AE7D1E008A586E /* GetNewsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */; };
+		1A97CBCA29AE8983008A586E /* PaginationLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBC929AE8983008A586E /* PaginationLoad.swift */; };
+		1A97CBD029AE8CF8008A586E /* KNUIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97CBCF29AE8CF8008A586E /* KNUIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A97CB8129AE796E008A586E /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A97CB8429AE796E008A586E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A97CB8629AE796E008A586E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A97CB8829AE796E008A586E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A97CB8B29AE796E008A586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A97CB8829AE796E008A586E /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
 		1A97CB8D29AE7970008A586E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A97CB9029AE7970008A586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A97CB9229AE7970008A586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A97CB9829AE79CB008A586E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1A97CB9B29AE79E5008A586E /* KNUIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNUIApplicationExtension.swift; sourceTree = "<group>"; };
+		1A97CB9E29AE79E5008A586E /* KNGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNGeneral.swift; sourceTree = "<group>"; };
+		1A97CBA029AE79E5008A586E /* KNApiConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNApiConnector.swift; sourceTree = "<group>"; };
+		1A97CBA329AE79E5008A586E /* KNView+KNController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KNView+KNController.swift"; sourceTree = "<group>"; };
+		1A97CBA529AE79E5008A586E /* KNControlConstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNControlConstruction.swift; sourceTree = "<group>"; };
+		1A97CBA629AE79E5008A586E /* KNConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNConstraints.swift; sourceTree = "<group>"; };
+		1A97CBAA29AE79E5008A586E /* KNTableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNTableExtension.swift; sourceTree = "<group>"; };
+		1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewsWorker.swift; sourceTree = "<group>"; };
+		1A97CBC929AE8983008A586E /* PaginationLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationLoad.swift; sourceTree = "<group>"; };
+		1A97CBCF29AE8CF8008A586E /* KNUIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNUIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A97CBC029AE7A3E008A586E /* Kingfisher in Frameworks */,
+				1A97CBBD29AE79FA008A586E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,65 @@
 		1A97CB8329AE796E008A586E /* News */ = {
 			isa = PBXGroup;
 			children = (
-				1A97CB8429AE796E008A586E /* AppDelegate.swift */,
-				1A97CB8629AE796E008A586E /* SceneDelegate.swift */,
-				1A97CB8829AE796E008A586E /* ViewController.swift */,
-				1A97CB8A29AE796E008A586E /* Main.storyboard */,
-				1A97CB8D29AE7970008A586E /* Assets.xcassets */,
-				1A97CB8F29AE7970008A586E /* LaunchScreen.storyboard */,
-				1A97CB9229AE7970008A586E /* Info.plist */,
+				1A97CBCB29AE8C92008A586E /* Config */,
+				1A97CBCD29AE8CAD008A586E /* Features */,
+				1A97CBCE29AE8CB8008A586E /* Libs */,
+				1A97CBCC29AE8C9B008A586E /* Resources */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		1A97CB9A29AE79E5008A586E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A97CBA029AE79E5008A586E /* KNApiConnector.swift */,
+				1A97CBA629AE79E5008A586E /* KNConstraints.swift */,
+				1A97CBA529AE79E5008A586E /* KNControlConstruction.swift */,
+				1A97CB9E29AE79E5008A586E /* KNGeneral.swift */,
+				1A97CBAA29AE79E5008A586E /* KNTableExtension.swift */,
+				1A97CB9B29AE79E5008A586E /* KNUIApplicationExtension.swift */,
+				1A97CBCF29AE8CF8008A586E /* KNUIImageViewExtension.swift */,
+				1A97CBA329AE79E5008A586E /* KNView+KNController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A97CBCB29AE8C92008A586E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1A97CB8429AE796E008A586E /* AppDelegate.swift */,
+				1A97CB8629AE796E008A586E /* SceneDelegate.swift */,
+				1A97CB9229AE7970008A586E /* Info.plist */,
+				1A97CB9829AE79CB008A586E /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1A97CBCC29AE8C9B008A586E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A97CB8D29AE7970008A586E /* Assets.xcassets */,
+				1A97CB8F29AE7970008A586E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A97CBCD29AE8CAD008A586E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1A97CB8829AE796E008A586E /* NewsController.swift */,
+				1A97CBC329AE7D1E008A586E /* GetNewsWorker.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1A97CBCE29AE8CB8008A586E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1A97CB9A29AE79E5008A586E /* Extensions */,
+				1A97CBC929AE8983008A586E /* PaginationLoad.swift */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +157,10 @@
 			dependencies = (
 			);
 			name = News;
+			packageProductDependencies = (
+				1A97CBBC29AE79FA008A586E /* Alamofire */,
+				1A97CBBF29AE7A3E008A586E /* Kingfisher */,
+			);
 			productName = News;
 			productReference = 1A97CB8129AE796E008A586E /* News.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +189,10 @@
 				Base,
 			);
 			mainGroup = 1A97CB7829AE796E008A586E;
+			packageReferences = (
+				1A97CBBB29AE79FA008A586E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1A97CBBE29AE7A3E008A586E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 1A97CB8229AE796E008A586E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +209,6 @@
 			files = (
 				1A97CB9129AE7970008A586E /* LaunchScreen.storyboard in Resources */,
 				1A97CB8E29AE7970008A586E /* Assets.xcassets in Resources */,
-				1A97CB8C29AE796E008A586E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +219,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A97CB8929AE796E008A586E /* ViewController.swift in Sources */,
+				1A97CB8929AE796E008A586E /* NewsController.swift in Sources */,
+				1A97CBB329AE79E6008A586E /* KNView+KNController.swift in Sources */,
+				1A97CBAE29AE79E6008A586E /* KNGeneral.swift in Sources */,
+				1A97CBB529AE79E6008A586E /* KNControlConstruction.swift in Sources */,
+				1A97CBAB29AE79E6008A586E /* KNUIApplicationExtension.swift in Sources */,
+				1A97CBB029AE79E6008A586E /* KNApiConnector.swift in Sources */,
+				1A97CB9929AE79CB008A586E /* AppConfig.swift in Sources */,
 				1A97CB8529AE796E008A586E /* AppDelegate.swift in Sources */,
 				1A97CB8729AE796E008A586E /* SceneDelegate.swift in Sources */,
+				1A97CBCA29AE8983008A586E /* PaginationLoad.swift in Sources */,
+				1A97CBD029AE8CF8008A586E /* KNUIImageViewExtension.swift in Sources */,
+				1A97CBB629AE79E6008A586E /* KNConstraints.swift in Sources */,
+				1A97CBBA29AE79E6008A586E /* KNTableExtension.swift in Sources */,
+				1A97CBC429AE7D1E008A586E /* GetNewsWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A97CB8A29AE796E008A586E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A97CB8B29AE796E008A586E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A97CB8F29AE7970008A586E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +373,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YM62LBZ4XN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +400,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YM62LBZ4XN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +440,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A97CBBB29AE79FA008A586E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1A97CBBE29AE7A3E008A586E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A97CBBC29AE79FA008A586E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A97CBBB29AE79FA008A586E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1A97CBBF29AE7A3E008A586E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A97CBBE29AE7A3E008A586E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A97CB7929AE796E008A586E /* Project object */;
 }
